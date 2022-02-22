@@ -1,0 +1,270 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+.container>header{
+    background-image: url('images/professional-tattoo-artist-makes-a-tattoo-on-a-you-P7PGUQ5-1.jpg');
+    background-size: 100% 100%;
+    height: 0px;
+    padding-bottom: 25%;
+}
+.container>nav{
+    line-height: 40px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-variant: small-caps;
+    height: 100px;
+}
+.container nav .wrapper a{
+    text-align: left;
+}
+@keyframes my {
+    0% { color: #000000; } 
+    50% { color: #fff;  } 
+    100% { color: #ff0800;  } 
+}
+@keyframes my { 
+    0% { color: #1404eb;  } 
+    50% { color: rgb(8, 241, 93);  }
+    100% { color: #F8CD0A;  } 
+}
+@keyframes my { 
+    0% { color: #fd0087; } 
+    50% { color: rgb(131, 105, 214); } 
+    100% { color: #691a51;  } 
+}
+@keyframes my { 
+    0% { color: #029dfd;  } 
+    50% { color: rgb(251, 7, 7);  }
+    100% { color: #ffda33;  } 
+} 
+
+.wrapper a{
+    font-size: 70px;
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    -webkit-animation: my 700ms infinite;
+    -moz-animation: my 700ms infinite; 
+    -o-animation: my 700ms infinite; 
+    animation: my 700ms infinite;
+    position: relative;
+    top: 25px;
+    /* text-align: left; */
+    /* padding: auto; */
+    /* margin: 50px; */
+}
+.wrapper input{
+    border-radius: 10px;
+    /* font-size: 30px; */
+    padding-left: 70px;
+}
+.mot a{
+    text-align: center;
+    text-decoration: none;
+}
+.chuchay{
+    width: auto;
+    font-size: 30px;
+    color: #000000;
+    font-weight: bolder; 
+    margin: 20px;
+}
+.menu ul{
+    width: auto;
+    height: 20px;
+    padding: 0px;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    background-color: rgb(0, 0, 0);
+    text-align: center;    
+}
+.menu>ul>li>a{
+    text-decoration: none;
+    /* font-variant: small-caps; */
+    font-size: larger;
+    color: white;
+    padding: 20px 10px;
+    line-height: 10px;
+    display: block;
+    margin: 20px;
+}
+.menu>ul>li{
+    display: inline-block;
+    
+}
+.menu>ul>li>a:hover{
+    color: red;
+
+}
+.love{
+    /* width: auto; */
+    font-size: 30px;
+    color: #000000;
+    font-weight: bolder;   
+    margin: 20px;
+}
+.container aside{
+    width: 250px;
+    height: 1030px;
+    float: left;
+    background-color: black;
+}
+.vmenu ul li{
+    height: 50px;
+}
+.vmenu ul{
+    padding: 0px;
+    margin: 25px;
+    list-style: none;
+    border-radius: 3px;
+}
+.vmenu ul li a{
+    background-color: black;
+    display: block;
+    color: rgb(255, 255, 255);
+    /* font-variant: small-caps; */
+    font-size: 30px;
+    text-decoration: none;
+    
+}
+.vmenu ul ul {
+    position: absolute;
+    display: none;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 1px gray;
+}
+.vmenu ul ul li{
+    border: 2px solid black;
+
+}
+.vmenu ul ul a{
+    display: block;
+    line-height: 10px;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    /* font-variant: small-caps; */
+    font-size: larger;
+    padding: 20px 10px;
+}
+.vmenu ul ul a:hover{
+    background-color: black;
+    color: white;
+}
+.vmenu ul li:hover ul{
+    display: block;
+}
+ aside img{
+    position: relative;
+    top: 230px;
+    border-radius: 100px;
+    align-content: center;
+}
+.vmenu a:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    /* font-weight:  ; */
+
+}
+.content p{
+    text-align: center;
+    font-size: 40px;
+}
+.content{
+    height: 1000px;
+}
+.content img{
+    width: 190px;
+    height: 250px;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: yellow;
+    box-shadow: 5px 0px 15px rgb(0, 0, 0);
+}
+.content img:hover{
+    color: red;
+    box-shadow: 0px 0px 50px red;
+    background-color: rgb(0, 0, 255);
+}
+.container>footer{
+    border-top: 20px double rgb(255, 255, 255);
+    line-height: 0px;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    /* font-variant: small-caps; */
+    clear: both;
+    color: white;
+    /* height: 300px; */
+}
+.logoanh{
+    position: relative;
+    left: 30px;
+    top: 5px; 
+    text-align: left;
+    /* margin: 50px; */
+    padding: 50px;
+}
+.logoanh li{
+    text-decoration: none;
+}
+.lienhe{
+    text-align: left;
+}
+.lienhe a{
+    text-align: left;
+    font-size: 40px;
+    text-decoration: none;
+    color: white;
+    position: relative;
+    left: 200px;
+    bottom: 95px; 
+}
+.sdt{
+    text-align: right;
+    color: white;
+    font-size: 40px;
+    position: relative;
+    top: -140px;
+    right: 100px;
+}
+.diachi{
+    color: white;
+    font-size: 40px;
+    position: relative;
+    top: -50px;  
+}
+.diachi a{
+    text-decoration: none;
+    color: white;
+}
+.video{
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+    margin: 20px;
+    
+}
+.video>iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
